@@ -1,0 +1,722 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.Nav-padding {
+    padding-left: 89.4445px;
+    padding-right: 89.4445px;
+    padding-top: 15px;
+}
+
+.HoverNav li {
+    position: relative;
+    font-weight: 500;
+    color: white;
+}
+
+.HoverNav li::after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    left: 9px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.HoverNav li:hover::after {
+    width: 60%;
+
+}
+
+
+.Home {
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Home .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.Home h1 {
+    margin-bottom: 24px;
+    font-size: 72px;
+    position: relative;
+}
+
+.Home h1::after {
+    content: "|";
+    animation-name: Typer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 249px;
+    top: 104px;
+    font-size: 40px;
+}
+
+@media (max-width:600px) {
+    .Home h1::after {
+        content: "|";
+        animation-name: Typer;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        left: 0px;
+        top: 250px;
+        font-size: 40px;
+    }
+}
+
+
+.IconStyle {
+    font-size: 40px;
+    border: 10px solid rgba(0, 120, 255, 1);
+    border-radius: 50%;
+    padding: 40px;
+    color: #4e4e4e;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.IconStyle:hover {
+    background-color: rgba(0, 120, 255, 1);
+    border: 10px solid whitesmoke;
+    color: white;
+
+}
+
+
+
+@keyframes Typer {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Dev|";
+
+    }
+
+    4% {
+        content: "Deve|";
+
+    }
+
+    5% {
+        content: "Devel|";
+
+    }
+
+    6% {
+        content: "Develo|";
+
+    }
+
+    7% {
+        content: "Develop|";
+
+    }
+
+    8% {
+        content: "Develope|";
+
+    }
+
+    9% {
+        content: "Developer|";
+
+    }
+
+    10% {
+        content: "Develope|";
+
+    }
+
+    11% {
+        content: "Develop|";
+
+    }
+
+    12% {
+        content: "Develo|";
+
+    }
+
+    13% {
+        content: "Devel|";
+
+    }
+
+    14% {
+        content: "Deve|";
+
+    }
+
+    15% {
+        content: "Dev|";
+
+    }
+
+    16% {
+        content: "De|";
+    }
+
+    17% {
+        content: "D|";
+    }
+
+    18% {
+        content: "|";
+    }
+
+    19% {
+        content: "|";
+    }
+
+    20% {
+        content: "P|";
+    }
+
+    21% {
+        content: "Ph|";
+    }
+
+    22% {
+        content: "Pho|";
+
+    }
+
+    23% {
+        content: "Phot|";
+
+    }
+
+    24% {
+        content: "Photo|";
+
+    }
+
+    25% {
+        content: "Photog|";
+
+    }
+
+    26% {
+        content: "Photogr|";
+
+    }
+
+    27% {
+        content: "Photogra|";
+
+    }
+
+    28% {
+        content: "Photograp|";
+
+    }
+
+    29% {
+        content: "Photograph|";
+
+    }
+
+    30% {
+        content: "Photographe|";
+
+    }
+
+    31% {
+        content: "Photographer|";
+
+    }
+
+    32% {
+        content: "Photographe|";
+
+    }
+
+    33% {
+        content: "Photograph|";
+
+    }
+
+    34% {
+        content: "Photograp|";
+
+    }
+
+    35% {
+        content: "Photogra|";
+    }
+
+    36% {
+        content: "Photogr|";
+    }
+
+    37% {
+        content: "Photo|";
+    }
+
+    38% {
+        content: "Phot|";
+    }
+
+    39% {
+        content: "Pho|";
+    }
+
+    40% {
+        content: "Ph|";
+    }
+
+    41% {
+        content: "P|";
+    }
+
+    42% {
+        content: "|";
+    }
+
+    43% {
+        content: "F|";
+    }
+
+    44% {
+        content: "Fr|";
+    }
+
+    45% {
+        content: "Fre|";
+    }
+
+    46% {
+        content: "Free|";
+    }
+
+    47% {
+        content: "Freel|";
+    }
+
+    48% {
+        content: "Freela|";
+    }
+
+    49% {
+        content: "Freelan|";
+    }
+
+    50% {
+        content: "Freelanc|";
+    }
+
+    51% {
+        content: "Freelance|";
+    }
+
+    52% {
+        content: "Freelancer|";
+    }
+
+    53% {
+        content: "Freelance|";
+    }
+
+    54% {
+        content: "Freelanc|";
+    }
+
+    55% {
+        content: "Freelan|";
+    }
+
+    56% {
+        content: "Freela|";
+    }
+
+    57% {
+        content: "Freel|";
+    }
+
+    58% {
+        content: "Free|";
+    }
+
+    59% {
+        content: "Fre|";
+    }
+
+    60% {
+        content: "Fr|";
+    }
+
+    61% {
+        content: "F|";
+    }
+
+    62% {
+        content: "|";
+    }
+
+    63% {
+        content: "D|";
+    }
+
+    64% {
+        content: "De|";
+    }
+
+    65% {
+        content: "Des|";
+    }
+
+    66% {
+        content: "Desi|";
+    }
+
+    67% {
+        content: "Desig|";
+    }
+
+    68% {
+        content: "Design|";
+    }
+
+    69% {
+        content: "Designe|";
+    }
+
+    70% {
+        content: "Designer|";
+    }
+
+    71% {
+        content: "Designe|";
+    }
+
+    72% {
+        content: "Design|";
+    }
+
+    73% {
+        content: "Desig|";
+    }
+
+    74% {
+        content: "Desi|";
+    }
+
+    75% {
+        content: "Des|";
+    }
+
+    76% {
+        content: "De|";
+    }
+
+    77% {
+        content: "D|";
+    }
+
+    78% {
+        content: "|";
+    }
+
+
+
+
+
+
+}
+
+.containerbg {
+    background-color: #09c;
+}
+
+.th {
+    line-height: 35px;
+}
+
+.Hover2 {
+    position: relative;
+}
+
+.Hover2::after {
+    content: "";
+    width: 103px;
+    height: 3px;
+    left: 0;
+    top: 34px;
+    position: absolute;
+    background-color: #0078ff;
+    margin-top: 15px;
+}
+
+.my-lh {
+    line-height: 45px;
+}
+
+.my-margin {
+    padding: 30px;
+}
+
+.my-bg1 {
+    padding: 30px;
+
+
+}
+
+.my-fs {
+    font-size: 48px;
+}
+
+.my-bg2 {
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.my-bg3 {
+    background-color: rgba(0, 120, 255, 0.7);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.IconStyle2 {
+    font-size: 30px;
+    border: 10px solid #cde1f8;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+
+}
+
+
+
+.iconstyleA {
+    width: 50PX;
+    height: 50px;
+    font-size: 25px;
+    border: 4px #0078ff solid;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 40px;
+
+}
+
+@media (min-width:650px) {
+    .iconstyleA {
+        width: 50PX;
+        height: 50px;
+        font-size: 25px;
+        border: 4px #0078ff solid;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: -5px;
+        margin-top: 5px;
+
+    }
+}
+
+@media (min-width:1200px) {
+    .iconstyleA {
+        width: 50PX;
+        height: 50px;
+        font-size: 25px;
+        border: 4px #0078ff solid;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 30px;
+
+    }
+}
+
+.translateprogress {
+    transform: translateX(-12px);
+}
+
+
+.my-paddingx {
+    padding-left: 78px;
+    padding-right: 78px;
+}
+
+.accentcolor {
+    color: #0078ff;
+}
+
+
+
+.affected {
+    transition: transform 0.5s;
+}
+
+.hovered:hover .affected {
+    transform: scale(1.25);
+
+}
+
+.my-bg4 {
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgba(0, 120, 255, 0.7);
+}
+
+.my-paddingy {
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    background-color: rgba(0, 120, 255, 0.7);
+
+
+}
+
+.w-15 {
+    width: 15%;
+}
+
+
+.container .Indicatorr {
+    position: static;
+}
+
+.container .Indicatorr .colorbtn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translateY(-30px);
+}
+
+
+.fieldtitle {
+    position: absolute;
+    width: 67px;
+    height: 27px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: #0078ff;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    left: 168px;
+    top: -15px;
+}
+
+@Media (min-width:768px) and (max-width:1150px) {
+    .fieldtitle {
+
+        left: 70px;
+
+    }
+}
+
+@Media(max-width:767px) {
+    .fieldtitle {
+
+        left: 140px;
+
+    }
+}
+
+
+
+
+
+
+.w-15 {
+    width: 15%;
+
+}
+
+.imgaspect {
+    width: 30px;
+    height: 30px;
+}
+
+.underline1 {
+    width: 49px;
+    height: 3px;
+    background-color: #0078ff;
+    margin: auto;
+}
+
+.underline2 {
+    width: 111px;
+    height: 3px;
+    background-color: #0078ff;
+    margin-top: 10px;
+}
+
+.btnpadd {
+    padding: 10px 24px;
+    border-radius: 25px;
+}
+
+.inputsizing {
+    padding: 10px 15px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.bgform {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+
+.overlay2 {
+
+    background-color: rgba(0, 120, 255, 0.7);
+    padding-top: 150px;
+
+}
+
+.iconsborder {
+    border-radius: 50%;
+    border: #0078ff solid 3px !important;
+    transition: all 0.5s;
+}
+
+.iconsborder:hover {
+    background-color: #0078ff;
+    color: white;
+    border: whitesmoke solid 3px !important;
+}
+
+.footbg {
+    background-color: #0062d3;
+}
