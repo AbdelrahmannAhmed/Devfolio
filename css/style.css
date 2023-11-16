@@ -720,3 +720,9 @@ body {
 .footbg {
     background-color: #0062d3;
 }
+
+@media (min-width:768px) and (max-width:991px){
+    .marginfix{
+        margin-left: 10px;
+    }
+}
